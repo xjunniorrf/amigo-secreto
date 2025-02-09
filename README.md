@@ -1,5 +1,7 @@
 <h1 align="center">Amigo Secreto</h1>
-<img src= "assets/amigo-secreto.png" style="display: block; margin: center;">
+<div align="center">
+<img src= "assets/amigo-secreto.png" alt="Amigo Secreto">
+</div>
 <br>
 <p align="left">
    <img src="https://img.shields.io/badge/STATUS-FINALIZADO-blue">
