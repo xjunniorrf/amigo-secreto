@@ -31,7 +31,7 @@ function mostrarAmigos() {
   let listaAmigos = document.getElementById("listaAmigos");
   listaAmigos.innerHTML = "";
   for (let i = 0; i < grupoAmigos.length; i++) {
-    listaAmigos.innerHTML += `<li>${grupoAmigos[i]}</li>`;
+    cambiarTexto("#listaAmigos", `${listaAmigos.innerHTML} ${grupoAmigos[i]} <br>`);
   }
 
 }
