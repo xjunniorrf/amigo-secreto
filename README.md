@@ -1,6 +1,6 @@
-<h1 align="center">Amigo Secreto
+<h1 align="center">Amigo Secreto</h1>
 <img src= "assets/amigo-secreto.png" style="display: block; margin: auto;">
-</h1>
+<br>
 <p align="left">
    <img src="https://img.shields.io/badge/STATUS-FINALIZADO-blue">
    <img src="https://img.shields.io/badge/Licencia-MIT-blue.svg">
