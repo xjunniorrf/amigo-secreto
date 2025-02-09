@@ -11,17 +11,15 @@ function agregarAmigo() {
   amigos = document.getElementById("amigo").value;
   if (amigos == "") {
     alert("Ingrese un valor valido");
-
-    if (grupoAmigos.length == amigos) {
-      alert("El amigo ya esta en la lista");
-    }
   } else {
     if (grupoAmigos.includes(amigos)) {
       alert("El amigo ya esta en la lista");
-    } else if (grupoAmigos.length >= 5) {
+    } 
+    else if (grupoAmigos.length >= 5) {
       alert("El maximo de amigos es 5");
       console.log(grupoAmigos);
-    } else {
+    } 
+    else {
       grupoAmigos.push(amigos);
       document.getElementById("amigo").value = "";
       mostrarAmigos();
